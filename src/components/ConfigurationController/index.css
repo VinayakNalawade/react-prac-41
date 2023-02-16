@@ -1,0 +1,28 @@
+.configuration-control {
+  background-color: #475569;
+  padding: 5px;
+  padding-left: 25px;
+}
+
+.configuration-control-heading {
+  color: #f1f5f9;
+}
+
+.configuration-control-ul {
+  padding: 0;
+}
+
+.configuration-control-li {
+  list-style-type: none;
+}
+
+.configuration-control-li-input {
+  margin: 12px;
+  margin-left: 0px;
+  width: 20px;
+}
+
+.configuration-control-li-label {
+  color: #f1f5f9;
+  font-size: 18px;
+}
