@@ -25,8 +25,8 @@ const ConfigurationControl = () => (
       return (
         <div className="configuration-control">
           <h1 className="configuration-control-heading">Layout</h1>
-          <ul className="configuration-control-ul">
-            <li className="configuration-control-li">
+          <div className="configuration-control-ul">
+            <div className="configuration-control-li">
               <input
                 className="configuration-control-li-input"
                 type="checkbox"
@@ -40,8 +40,8 @@ const ConfigurationControl = () => (
               >
                 Content
               </label>
-            </li>
-            <li className="configuration-control-li">
+            </div>
+            <div className="configuration-control-li">
               <input
                 className="configuration-control-li-input"
                 type="checkbox"
@@ -55,8 +55,8 @@ const ConfigurationControl = () => (
               >
                 Left Navbar
               </label>
-            </li>
-            <li className="configuration-control-li">
+            </div>
+            <div className="configuration-control-li">
               <input
                 className="configuration-control-li-input"
                 type="checkbox"
@@ -70,8 +70,8 @@ const ConfigurationControl = () => (
               >
                 Right Navbar
               </label>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
       )
     }}
